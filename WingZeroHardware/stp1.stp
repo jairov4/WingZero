@@ -1,0 +1,318 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C15/20 (0x020B30DD)" sof_file="RobotIF.sof" top_level_entity="RobotIF">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <global_info>
+    <multi attribute="column width" size="18" value="34,34,398,74,68,70,88,100,101,101,101,101,101,101,101,101,107,78"/>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1244,660,398,124,0,50,124,0,1"/>
+  </global_info>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2009/09/27 21:49:36  #0">
+      <clock name="clk" polarity="posedge" tap_mode="probeonly"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_trigger_nodes="0" sample_depth="64" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[0]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[10]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[11]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[12]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[13]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[14]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[15]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[16]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[17]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[18]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[19]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[1]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[20]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[21]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[22]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[23]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[24]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[25]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[26]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[27]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[28]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[29]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[2]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[30]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[31]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[3]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[4]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[5]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[6]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[7]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[8]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[9]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[0]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[10]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[11]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[12]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[13]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[14]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[15]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[16]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[17]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[18]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[19]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[1]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[20]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[21]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[22]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[23]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[24]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[25]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[26]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[27]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[28]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[29]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[2]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[30]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[31]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[3]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[4]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[5]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[6]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[7]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[8]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[9]" tap_mode="probeonly" type="register"/>
+          <wire name="pwm_gen:inst1|pwm" tap_mode="probeonly" type="register"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[0]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[10]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[11]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[12]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[13]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[14]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[15]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[16]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[17]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[18]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[19]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[1]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[20]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[21]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[22]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[23]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[24]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[25]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[26]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[27]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[28]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[29]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[2]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[30]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[31]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[3]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[4]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[5]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[6]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[7]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[8]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_0:the_pio_0|data_out[9]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[0]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[10]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[11]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[12]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[13]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[14]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[15]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[16]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[17]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[18]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[19]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[1]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[20]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[21]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[22]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[23]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[24]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[25]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[26]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[27]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[28]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[29]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[2]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[30]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[31]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[3]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[4]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[5]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[6]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[7]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[8]" tap_mode="probeonly" type="register"/>
+          <wire name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[9]" tap_mode="probeonly" type="register"/>
+          <wire name="pwm_gen:inst1|pwm" tap_mode="probeonly" type="register"/>
+        </data_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="pwm_gen:inst1|pwm"/>
+          <bus is_signal_inverted="no" link="all" name="emb_system:inst|pio_0:the_pio_0|data_out" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="register">
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[0]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[1]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[2]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[3]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[4]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[5]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[6]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[7]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[8]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[9]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[10]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[11]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[12]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[13]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[14]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[15]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[16]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[17]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[18]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[19]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[20]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[21]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[22]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[23]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[24]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[25]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[26]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[27]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[28]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[29]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[30]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="register">
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[0]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[1]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[2]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[3]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[4]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[5]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[6]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[7]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[8]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[9]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[10]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[11]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[12]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[13]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[14]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[15]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[16]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[17]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[18]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[19]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[20]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[21]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[22]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[23]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[24]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[25]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[26]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[27]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[28]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[29]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[30]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[31]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="pwm_gen:inst1|pwm"/>
+          <bus is_signal_inverted="no" link="all" name="emb_system:inst|pio_0:the_pio_0|data_out" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="register">
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[0]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[1]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[2]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[3]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[4]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[5]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[6]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[7]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[8]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[9]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[10]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[11]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[12]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[13]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[14]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[15]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[16]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[17]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[18]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[19]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[20]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[21]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[22]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[23]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[24]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[25]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[26]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[27]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[28]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[29]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[30]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_0:the_pio_0|data_out[31]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="register">
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[0]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[1]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[2]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[3]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[4]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[5]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[6]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[7]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[8]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[9]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[10]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[11]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[12]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[13]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[14]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[15]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[16]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[17]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[18]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[19]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[20]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[21]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[22]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[23]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[24]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[25]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[26]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[27]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[28]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[29]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[30]"/>
+            <net is_signal_inverted="no" name="emb_system:inst|pio_ctl:the_pio_ctl|data_out[31]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="4808C21F" attribute_mem_mode="false" global_temp="1" name="trigger: 2009/09/27 21:49:36  #1" position="pre" power_up_trigger_mode="false" segment_size="1" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'pwm_gen:inst1|pwm' == either edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <log>
+          <data global_temp="1" name="log: 2009/09/27 21:54:58  #0" power_up_mode="false" sample_depth="64" trigger_position="-1">10000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000001000000000010000000000000000000000000000000000000000000000000000010000000000100000000000000000000000000000000000000000000000000000</data>
+          <extradata>11111111111111111T1111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+</session>

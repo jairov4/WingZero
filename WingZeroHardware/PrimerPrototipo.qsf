@@ -1,0 +1,133 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions
+# and other software and tools, and its AMPP partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Altera Program License
+# Subscription Agreement, Altera MegaCore Function License
+# Agreement, or other applicable license agreement, including,
+# without limitation, that your use is for the sole purpose of
+# programming logic devices manufactured by Altera and sold by
+# Altera or its authorized distributors.  Please refer to the
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		PrimerPrototipo_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C20F484C7
+set_global_assignment -name TOP_LEVEL_ENTITY encoder
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:59:31  SEPTEMBER 29, 2009"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_palace
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name QIP_FILE emb_system.qip
+set_global_assignment -name BDF_FILE RobotIF.bdf
+set_global_assignment -name VHDL_FILE pwm_gen.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_L1 -to clk
+set_location_assignment PIN_R22 -to reset_n
+set_location_assignment PIN_H13 -to pwm0
+set_location_assignment PIN_G15 -to pwm1
+set_location_assignment PIN_E15 -to pwm2
+set_location_assignment PIN_G16 -to pwm3
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_location_assignment PIN_Y6 -to addr_to_the_sram[17]
+set_location_assignment PIN_T7 -to addr_to_the_sram[16]
+set_location_assignment PIN_R10 -to addr_to_the_sram[15]
+set_location_assignment PIN_U10 -to addr_to_the_sram[14]
+set_location_assignment PIN_Y10 -to addr_to_the_sram[13]
+set_location_assignment PIN_T11 -to addr_to_the_sram[12]
+set_location_assignment PIN_R11 -to addr_to_the_sram[11]
+set_location_assignment PIN_W11 -to addr_to_the_sram[10]
+set_location_assignment PIN_V11 -to addr_to_the_sram[9]
+set_location_assignment PIN_AB11 -to addr_to_the_sram[8]
+set_location_assignment PIN_AA11 -to addr_to_the_sram[7]
+set_location_assignment PIN_AB10 -to addr_to_the_sram[6]
+set_location_assignment PIN_AA5 -to addr_to_the_sram[5]
+set_location_assignment PIN_AB4 -to addr_to_the_sram[4]
+set_location_assignment PIN_AA4 -to addr_to_the_sram[3]
+set_location_assignment PIN_AB3 -to addr_to_the_sram[2]
+set_location_assignment PIN_AA3 -to addr_to_the_sram[1]
+set_location_assignment PIN_AA6 -to data_to_and_from_the_sram[0]
+set_location_assignment PIN_AB6 -to data_to_and_from_the_sram[1]
+set_location_assignment PIN_AA7 -to data_to_and_from_the_sram[2]
+set_location_assignment PIN_AB7 -to data_to_and_from_the_sram[3]
+set_location_assignment PIN_AA8 -to data_to_and_from_the_sram[4]
+set_location_assignment PIN_AB8 -to data_to_and_from_the_sram[5]
+set_location_assignment PIN_AA9 -to data_to_and_from_the_sram[6]
+set_location_assignment PIN_AB9 -to data_to_and_from_the_sram[7]
+set_location_assignment PIN_Y9 -to data_to_and_from_the_sram[8]
+set_location_assignment PIN_W9 -to data_to_and_from_the_sram[9]
+set_location_assignment PIN_V9 -to data_to_and_from_the_sram[10]
+set_location_assignment PIN_U9 -to data_to_and_from_the_sram[11]
+set_location_assignment PIN_R9 -to data_to_and_from_the_sram[12]
+set_location_assignment PIN_W8 -to data_to_and_from_the_sram[13]
+set_location_assignment PIN_V8 -to data_to_and_from_the_sram[14]
+set_location_assignment PIN_U8 -to data_to_and_from_the_sram[15]
+set_location_assignment PIN_T8 -to oe_to_the_sram
+set_location_assignment PIN_W7 -to be_to_the_sram[1]
+set_location_assignment PIN_Y7 -to be_to_the_sram[0]
+set_location_assignment PIN_AB5 -to ce_to_the_sram
+set_location_assignment PIN_AA10 -to we_to_the_sram
+set_location_assignment PIN_Y5 -to addr_to_the_sram[18]
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT EXTRA
+set_global_assignment -name FMAX_REQUIREMENT "50 MHz" -section_id clk
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_global_assignment -name VHDL_FILE encoder.vhd
+set_global_assignment -name RTLV_GROUP_COMB_LOGIC_IN_CLOUD ON
+set_location_assignment PIN_R21 -to reset
+set_location_assignment PIN_U19 -to out_port_from_the_pio_led[2]
+set_location_assignment PIN_Y19 -to out_port_from_the_pio_led[3]
+set_location_assignment PIN_T18 -to out_port_from_the_pio_led[4]
+set_location_assignment PIN_V19 -to out_port_from_the_pio_led[5]
+set_location_assignment PIN_Y18 -to out_port_from_the_pio_led[6]
+set_location_assignment PIN_U18 -to out_port_from_the_pio_led[7]
+set_location_assignment PIN_R18 -to out_port_from_the_pio_led[8]
+set_location_assignment PIN_R17 -to out_port_from_the_pio_led[9]
+set_location_assignment PIN_U22 -to out_port_from_the_pio_led[10]
+set_location_assignment PIN_U21 -to out_port_from_the_pio_led[11]
+set_location_assignment PIN_V22 -to out_port_from_the_pio_led[12]
+set_location_assignment PIN_V21 -to out_port_from_the_pio_led[13]
+set_location_assignment PIN_W22 -to out_port_from_the_pio_led[14]
+set_location_assignment PIN_W21 -to out_port_from_the_pio_led[15]
+set_location_assignment PIN_Y22 -to out_port_from_the_pio_led[16]
+set_location_assignment PIN_Y21 -to out_port_from_the_pio_led[17]
+set_location_assignment PIN_D16 -to p0
+set_location_assignment PIN_C18 -to p1
+set_location_assignment PIN_R20 -to enc0
+set_location_assignment PIN_D8 -to enc1
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id Top
+set_global_assignment -name PARTITION_COLOR 14622752 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name CLOCK_SETTINGS clk -to clk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name ZIP_VECTOR_WAVEFORM_FILE TestEncoder.cvwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE TestEncoder.cvwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
