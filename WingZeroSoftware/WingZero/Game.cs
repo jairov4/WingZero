@@ -64,9 +64,10 @@ namespace WingZero
 			trajectory.Enabled = false;
 			Components.Add(trajectory);
 
-			joystick = new JoystickController(this, robot, iks, hardiks);
-			joystick.Enabled = true;
-			Components.Add(joystick);
+			// TODO Test if jostick is present to try enable
+			//joystick = new JoystickController(this, robot, iks, hardiks);
+			//joystick.Enabled = true;
+			//Components.Add(joystick);
 
 			hardware = new HardwareInterfaceController(this, robot);			
 			Components.Add(hardware);
@@ -173,11 +174,11 @@ namespace WingZero
 			trajectory.View = Camera.GetViewMatrix();
 			trajectory.Projection = Camera.GetProjectionMatrix();
 
-			joystick.World = world;
-			joystick.View = Camera.GetViewMatrix();
-			joystick.Projection = Camera.GetProjectionMatrix();
-
-			// TODO: Add your update logic here
+			// TODO Just if joystick is present
+			//joystick.World = world;
+			//joystick.View = Camera.GetViewMatrix();
+			//joystick.Projection = Camera.GetProjectionMatrix();
+			
 			base.Update(gameTime);
 		}
 

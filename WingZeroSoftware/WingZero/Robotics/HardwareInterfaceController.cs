@@ -38,7 +38,7 @@ namespace WingZero.Robotics
 		public void DetachHardware()
 		{
 			open = false;
-			JtagUart.Close(link);			
+			JtagUart.Close(link);
 		}
 
 		protected override void Dispose(bool disposing)

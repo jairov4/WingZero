@@ -69,29 +69,27 @@ namespace WingZero.Robotics
 
 		public override void Draw(GameTime gameTime)
 		{
-			List<VertexPositionColor> VertexList = new List<VertexPositionColor>();
+			var VertexList = new List<VertexPositionColor>();
 			if (Trajectory.Count() < 2) return;
-			IOrderedEnumerable<TrajectoryPoint> trajectory = Trajectory.OrderBy(x => x.t);
+			var trajectory = Trajectory.OrderBy(x => x.t);
 			foreach (TrajectoryPoint point in trajectory)
 			{
 				VertexList.Add(new VertexPositionColor(point.Position, Color.LightPink));
 			}			
-			VertexBuffer vbuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor), trajectory.Count(), BufferUsage.Points);
+
+			var vbuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor), trajectory.Count(), BufferUsage.WriteOnly);
 			vbuffer.SetData<VertexPositionColor>(VertexList.ToArray());
-			GraphicsDevice.Vertices[0].SetSource(vbuffer, 0, VertexPositionColor.SizeInBytes);
-			VertexDeclaration decl = new VertexDeclaration(GraphicsDevice, VertexPositionColor.VertexElements);
+			GraphicsDevice.SetVertexBuffer(vbuffer);
+			var decl = VertexPositionColor.VertexDeclaration;
 			
 			Effect.World = World;
 			Effect.View = View;
 			Effect.Projection = Projection;
-			Effect.Begin();
-			foreach (EffectPass pass in Effect.CurrentTechnique.Passes)
+			foreach (var pass in Effect.CurrentTechnique.Passes)
 			{
-				pass.Begin();
+				pass.Apply();
 				GraphicsDevice.DrawPrimitives(PrimitiveType.LineStrip, 0, VertexList.Count - 1);
-				pass.End();
 			}
-			Effect.End();	
 
 			base.Draw(gameTime);
 		}
